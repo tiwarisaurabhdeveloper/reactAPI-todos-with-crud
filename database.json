@@ -1,0 +1,34 @@
+{
+  "Todos": [
+    {
+      "title": "Buy Groceries",
+      "desc": " Apples\n Bread\n Milk\n Eggs\n Pasta\nChaumin",
+      "id": 1
+    },
+    {
+      "title": "Gym Workout",
+      "desc": " Cardio (30 minutes)\n Strength training (45 minutes)",
+      "id": 2
+    },
+    {
+      "title": "Read a Chapter of a Book",
+      "desc": "spend (3hr) in a Day",
+      "id": 3
+    },
+    {
+      "title": "Complete Work Project",
+      "desc": " Finish the report\n Send the email updates\n Review feedback",
+      "id": 4
+    },
+    {
+      "title": "Study",
+      "desc": "all Syllabus (30min)",
+      "id": 6
+    },
+    {
+      "title": "This is Me",
+      "desc": "Only for Sleep",
+      "id": 7
+    }
+  ]
+}
