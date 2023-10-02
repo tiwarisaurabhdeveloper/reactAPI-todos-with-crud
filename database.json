@@ -2,38 +2,21 @@
   "Todos": [
     {
       "title": "Buy Groceries",
+      "todoTimestamp": "2023-09-30T11:43:35.901Z",
       "desc": " Apples\n Bread\n Milk\n Eggs\n Pasta\nChaumin",
       "id": 1
     },
     {
       "title": "Gym Workout",
+      "todoTimestamp": "2023-10-01T11:43:35.901Z",
       "desc": " Cardio (30 minutes)\n Strength training (45 minutes)",
       "id": 2
     },
     {
       "title": "Read a Chapter of a Book",
+      "todoTimestamp": "2023-10-02T11:43:35.901Z",
       "desc": "spend (3hr) in a Day",
       "id": 3
-    },
-    {
-      "title": "Complete Work Project",
-      "desc": " Finish the report\n Send the email updates\n Review feedback",
-      "id": 4
-    },
-    {
-      "title": "Study",
-      "desc": "all Syllabus (30min)",
-      "id": 6
-    },
-    {
-      "title": "This is Me",
-      "desc": "Only for Sleep",
-      "id": 7
-    },
-    {
-      "title": "this is new",
-      "desc": "no need",
-      "id": 8
     }
   ]
 }

@@ -3,17 +3,19 @@ import TodoList from './TodoList'
 import axios from 'axios'
 
 function TodoHome() {
-    const data={title:"",desc:""}
+    const data={title:"",desc:"",time:""}
     const[todoInput,setTodoInput] = useState(data)
 
     const handleChange=(e)=>{
-        setTodoInput({...todoInput,[e.target.name]:e.target.value})
+        const todoTimestamp = new Date().toISOString();
+        setTodoInput({...todoInput,[e.target.name]:e.target.value,todoTimestamp})
         
         // console.log(todoInput);
     }
     const handleSubmit=async(e)=>{
         e.preventDefault();
         try {
+            
             todoInput!= [] &&
             await axios.post('http://localhost:5000/Todos',todoInput)
             setTodoInput("")
