@@ -18,7 +18,7 @@ function TodoHome() {
             
             todoInput!= [] &&
             await axios.post('http://localhost:5000/Todos',todoInput)
-            setTodoInput("")
+            setTodoInput(data)
         } catch (error) {
             console.log(error);
         }
