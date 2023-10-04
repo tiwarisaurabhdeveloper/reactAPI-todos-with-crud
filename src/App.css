@@ -42,3 +42,9 @@
 body{
   background-color: lavender;
 }
+.purple {
+  color: rgb(170, 79, 255);
+}
+#element {
+  color: rgb(170, 79, 255);
+}
